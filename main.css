@@ -3070,7 +3070,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #0465b2;
+						background: #393c3f;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
@@ -3308,3 +3308,32 @@ input, select, textarea {
 			}
 
 	}
+
+
+	/* Say hello button */
+
+	button{
+    width:200px;
+    height:70px;
+    background: linear-gradient(to left top, #016ac0 50%, #015aa3 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+
+button:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
